@@ -1,0 +1,38 @@
+
+  .fix a {
+    display: flex;
+    justify-content: start;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    color: #FFE15D;
+  }
+  
+  .sideBar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 0.6s;
+    margin-top: 50px;
+    margin-left: 1.55%;
+  }
+  
+  .sideBar.show {
+    left: 0;
+  }
+  
+  .sideBar li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 90%;
+    height: 90px;
+    padding: 1rem 0 1.25rem;
+  }
+  
+  .sideBar a {
+    display: flex;
+    padding: 0 1rem;
+  }  

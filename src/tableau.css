@@ -1,0 +1,77 @@
+/* Couleurs */
+:root {
+    --couleur-principale: #091431;
+    --couleur-texte: #ffffff;
+    --couleur-arriere-plan: #091431;
+  }
+  
+  /* Arrière-plan */
+  body {
+    background-color: var(--couleur-arriere-plan);
+  }
+  
+  /* Conteneur du tableau */
+  .tableau-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: var(--couleur-principale);
+    color: var(--couleur-texte);
+    border-radius: 5px;
+    padding: 16px;
+  }
+  
+  /* Champs de texte */
+  .input-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid var(--couleur-texte);
+    color: var(--couleur-texte);
+    background-color: var(--couleur-principale);
+  }
+  
+  /* Bouton Ajouter */
+  .btn-ajouter {
+    padding: 8px 16px;
+    background-color: var(--couleur-texte);
+    border: none;
+    color: var(--couleur-principale);
+    cursor: pointer;
+  }
+  
+  /* Liste du tableau */
+  .tableau-liste {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Éléments du tableau */
+  .tableau-element {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: var(--couleur-texte);
+    color: var(--couleur-principale);
+    border-radius: 5px;
+  }
+  
+  /* Bouton Supprimer */
+  .btn-supprimer,
+  .btn-modifier {
+    padding: 2px 5px;
+    background-color: var(--couleur-principale);
+    border: none;
+    color: var(--couleur-texte);
+    cursor: pointer;
+  }
+  
+  /* Hover sur les boutons */
+  .btn-supprimer:hover,
+  .btn-modifier:hover {
+    background-color: var(--couleur-texte);
+    color: var(--couleur-principale);
+  }
+  
